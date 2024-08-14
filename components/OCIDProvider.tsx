@@ -8,7 +8,7 @@ interface OCIDProviderProps {
 }
 
 const opts = {
-  redirectUri: "http://localhost:3000/redirect",
+  redirectUri: "https://eli5forweb3.vercel.app/redirect",
 };
 
 const OCIDProvider: FC<OCIDProviderProps> = ({ children }) => (
